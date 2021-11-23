@@ -4,7 +4,7 @@
   "description": "Back-end da aplicação LuMinus Switch",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node --exit-child ./src/app.ts",
+    "start": "ts-node-dev --exit-child ./src/app.ts",
     "dev": "ts-node-dev --exit-child ./src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
